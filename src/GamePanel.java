@@ -18,7 +18,7 @@ public class GamePanel extends JPanel{
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         JPanel panel = new GamePanel();
         frame.add(panel);
-        panel.setPreferredSize(new Dimension(700 , 500));
+        panel.setPreferredSize(new Dimension(600 , 600));
         frame.pack();
     }
 }
